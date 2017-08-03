@@ -21,7 +21,7 @@ h2 { font-size: 1.5em; }
 h3 { font-size: 1.2em; }
 
 .intro h1, h2 {
-	background-image: url(arena.png);
+	background-image: url(imagenes/arena.png);
 	background-position: 50%, 0;
 	margin: 0;
 	color: black;
@@ -61,7 +61,7 @@ h3 { font-size: 1.2em; }
 }
 
 #zen-explanation {
-	background-image: url(color.png);
+	background-image: url(imagenes/color.png);
 	color :black;
 	font-family: 'Zilla Slab Highlight', cursive;
 	font-size: 1.4em;
@@ -81,7 +81,7 @@ h3 { font-size: 1.2em; }
 	padding: 1em;
 	color: black;
 	font-family: 'Josefin Slab', serif;
-	background-image: url(Holi-Color-PNG-Images.png);
+	background-image: url(imagenes/Holi-Color-PNG-Images.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	font-weight: bold;
@@ -90,3 +90,9 @@ h3 { font-size: 1.2em; }
 
 p::first-letter {font-size: 150%; color:red;}
 p::first-line {color:#417d7f}
+
+footer {
+	
+     bottom: 0;
+
+}
