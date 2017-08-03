@@ -1,0 +1,77 @@
+/* Agrega aquí tus estilos*/
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Josefin+Slab|Julee|Lobster|Lora|Oswald');
+body {
+	background-color: rgba(203, 255, 232, 0.54);
+	padding: 5px;
+	font-family: 'Josefin Slab', serif;
+	color: green; 
+
+}
+header h1, h2 {
+	text-align: center;
+}
+h1, h2, h3 {
+  color: rgb(2, 38, 24);
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ 
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.2em; }
+
+.intro h1, h2 {
+	background-image: url(arena.png);
+	background-position: 50%, 0;
+	margin: 0;
+	color: black;
+}
+.summary {
+	color: #927a7a;
+	border: 5px solid #ffcdcd;
+	margin: 15px;
+	padding: 1em;
+	background-color: #e1e6e1;
+	font-family: 'Lobster', cursive;
+
+}
+.preamble {
+}
+.explanation {
+	text-align: center;
+margin:0 7px 7px 0px;
+ width:300px;
+  float: left; 
+  	border: 5px ;
+  	font-family: 'Indie Flower', cursive;
+  	padding:  5em;
+
+
+}
+.participation {
+		text-align: center;
+
+margin:0 7px 7px 0px;
+ width:250px;
+  float: left; 
+  	border: 25px ;
+font-family: 'Julee', cursive;
+
+}
+.select {
+	border: 5px ;
+	margin: 5px;
+	padding: 1em;
+	background-color: yellow;
+	
+	font-family: 'Lora', serif;
+
+}
+ li {
+		border: 5px ;
+	margin: 5px;
+} 
+
+#zen-explanation {
+	
+}
