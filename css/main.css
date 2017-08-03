@@ -1,10 +1,11 @@
 /* Agrega aquí tus estilos*/
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Josefin+Slab|Julee|Lobster|Lora|Oswald');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Josefin+Slab|Julee|Lobster|Lora|Oswald|Zilla+Slab+Highlight');
 body {
-	background-color: rgba(203, 255, 232, 0.54);
 	padding: 5px;
 	font-family: 'Josefin Slab', serif;
-	color: green; 
+	color: blue; 	
+	font-size: 1.2em;
+
 
 }
 header h1, h2 {
@@ -51,27 +52,52 @@ margin:0 7px 7px 0px;
 .participation {
 		text-align: center;
 
-margin:0 7px 7px 0px;
- width:250px;
+
   float: left; 
   	border: 25px ;
 font-family: 'Julee', cursive;
 
 }
-.select {
+
+.select, .design-archives, .zen-resources {
 	border: 5px ;
 	margin: 5px;
 	padding: 1em;
-	background-color: yellow;
-	
+
 	font-family: 'Lora', serif;
 
 }
- li {
-		border: 5px ;
-	margin: 5px;
-} 
+
+
 
 #zen-explanation {
-	
+	background-image: url(color.png);
+	color :black;
+	font-family: 'Zilla Slab Highlight', cursive;
+	font-size: 1.4em;
+	line-height: 25pt;
+
 }
+#zen-benefits {
+}
+#zen-requirements {
+		color: black;
+
+}
+#zen-participation {
+	color: #927a7a;
+	border: 2px solid black;
+	margin: 15px;
+	padding: 1em;
+	color: black;
+	font-family: 'Josefin Slab', serif;
+background-image: url(Holi-Color-PNG-Images.png);
+background-repeat: no-repeat;
+background-size: cover;
+font-weight: bold;
+text-decoration: underline wavy black;
+}
+div:first-child {font-size:115%;}
+p::first-letter {font-size: 150%; color:red;}
+p::first-line {color:#417d7f}
+p::last-line {color:blue}
